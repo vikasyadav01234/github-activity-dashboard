@@ -1,12 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { Card } from '/components/ui/card';
-import { Input } from '/components/ui/input';
-import { Button } from '/components/ui/button';
-import { UserRepositories } from '/components/UserRepositories';
-import { CommitsChart } from '/components/CommitsChart';
-import { useToast } from '/components/ui/use-toast';
+import { Card } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { UserRepositories } from '@/components/UserRepositories';
+import { CommitsChart } from '@/components/CommitsChart';
+import { useToast } from '@/components/ui/use-toast';
 
 export default function Home() {
   const [username, setUsername] = useState('');
